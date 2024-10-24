@@ -8,7 +8,7 @@ We heavily utilized the nitxla library for our data processing and forecasting t
 
 ## 1. Important: To replicate our results
 
-- Step 1: Install required library from `requirements.txt`
+- Step 1: Install required library from `environment.yml`: `bash conda env create --file=environment.yml`
 - Step 2: Run `theta.ipynb` to obtain the output as `theta.csv`
 - Step 3: Run `mfles1.ipynb` to obtain the output as `mfles1.csv`
 - Step 4: Run `mfles2.ipynb` to obtain the output as `mfles2.csv`
