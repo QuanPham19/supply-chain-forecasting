@@ -8,11 +8,11 @@ We heavily utilized the nitxla library for our data processing and forecasting t
 
 ## 1. Important: To replicate our results
 
-- Step 1: Install required library from `environment.yml`: `bash conda env create --file=environment.yml`
-- Step 2: Run `theta.ipynb` to obtain the output as `theta.csv`
-- Step 3: Run `mfles1.ipynb` to obtain the output as `mfles1.csv`
-- Step 4: Run `mfles2.ipynb` to obtain the output as `mfles2.csv`
-- Step 5: Run `lightgbm.ipynb` to obtain the output as `lightgbm.csv`
+- Step 1: Install required library from `environment.yml`: `bash conda env create --file=environment.yml` to run `lightgbm.ipynb`
+- Step 2: For the statistical models, install the requirements from `requirements.txt`, with python version=3.12
+  - Step 2.1: Run `theta.ipynb` to obtain the output as `theta.csv`
+  - Step 2.2: Run `mfles1.ipynb` to obtain the output as `mfles1.csv`
+  - Step 2.3: Run `mfles2.ipynb` to obtain the output as `mfles2.csv`
 - Step 6: Run `ensemble.ipynb` to obtain the final output as `final_submission_phase_2_hell_yeah.csv`
 
 ## 2. Training process and data use
